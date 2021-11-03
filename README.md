@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+# Challenge [amenitiz.io](https://www.amenitiz.io/)
+
+---
+## Requirements
+- node 14.0.0
+- npm
+
+## Project Structure
+- src
+  - main
+    - api (_Remote backend's API client_)
+    - common (_routes, styles, errors, contexts could be placed here_)
+    - components (_Atomic components_)
+    - screens (_Actual web application pages/screens_)
+  - tests (_all here, I personally prefer to have them under the same directory..._)
+
+### Details
+- No styles, following challenge instructions (I would to use MUI)
+- No time to mock API tests, sorry about it
+
+**The heart of the challenge can be found at Shop screen as well as on Item & ShoppingCart components**
+
+---
+
+**From here we have the default readme that react create app provides**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
