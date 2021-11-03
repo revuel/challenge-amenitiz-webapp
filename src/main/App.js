@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import RouteSwitcher from './components/RouteSwitcher';
 
-function App() {
+/**
+ * Essentially just delegates route rendering to the RouteSwitcher component.
+ * Notes: No CSS
+ * @returns {JSX.Element}
+ * @constructor
+ */
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <RouteSwitcher/>
+  )
 }
 
 export default App;
